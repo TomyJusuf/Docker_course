@@ -22,7 +22,7 @@
 # -------------------------------------
     #Caching data for more quicker load data
 # Base Image: It starts with a Node.js 17 environment using a lightweight Alpine Linux image.
- FROM node:16-alpine                 
+ FROM node:20-alpine                 
 
  RUN npm install -g nodemon
 
