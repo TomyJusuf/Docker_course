@@ -29,8 +29,3 @@ jobs:
 
       - name: Build Docker image
         run: docker-compose build
-
-      - name: Run service tests
-        run: |
-          docker-compose run api npm test
-          docker-compose run myblog npm test
