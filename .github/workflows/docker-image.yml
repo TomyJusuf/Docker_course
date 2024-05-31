@@ -34,6 +34,3 @@ jobs:
         run: |
           docker-compose run api npm test
           docker-compose run myblog npm test
-
-      - name: Stop services
-        run: docker-compose down
